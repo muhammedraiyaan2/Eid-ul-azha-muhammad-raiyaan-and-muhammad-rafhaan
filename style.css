@@ -1,0 +1,61 @@
+.title{
+    animation-duration: 4s;
+    animation-name: titleani;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    animation-iteration-count: infinite;
+}
+@keyframes titleani {
+    0%{
+        color:red;
+    }
+    50%{
+        color:green
+    }
+    100%{
+        color:blue;
+    }
+}
+h2{
+    text-align: center;
+}
+video{
+    height: 600px;
+}
+.responsive{
+    border: 0px solid red;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    animation-duration: 4s;
+    animation-name: footani;
+    animation-iteration-count: infinite;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Benne', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+@keyframes footani {
+    0%{
+        text-shadow:2px 2px 10px lightcoral;
+        color:black;
+    }
+    50%{
+        text-shadow:2px 2px 10px purple;
+        color:black;
+    }
+    70%{
+        text-shadow:2px 2px 10px lightgreen;
+    color:black; 
+}
+    100%{
+        text-shadow:2px 2px 10px lightseagreen;
+    color:black;  
+}
+}
